@@ -169,13 +169,13 @@ export function Portfolio() {
           <div className="text-xs font-light mt-6 flex flex-wrap justify-center gap-4">
             <Magnetic strength={0.25}>
               <a
-                href="https://github.com/Arooj-Ashfaq"
+                href="https://github.com/Zoya-Ahmad"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-full border border-border bg-card/60 px-6 py-3 font-semibold text-foreground transition-all hover:border-primary/50 hover:bg-card hover:scale-105"
               >
                 <Github size={18} />
-                  github/Arooj-Ashfaq
+                  github/Zoya-Ahmad
                 <ExternalLink size={14} />
               </a>
             </Magnetic>

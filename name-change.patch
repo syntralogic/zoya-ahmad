@@ -1,0 +1,137 @@
+diff --git a/src/components/sections/Hero.tsx b/src/components/sections/Hero.tsx
+index c9d998c..e7221cd 100644
+--- a/src/components/sections/Hero.tsx
++++ b/src/components/sections/Hero.tsx
+@@ -91,7 +91,7 @@ export function Hero() {
+               {/* TODO: replace src/assets/profile.jpg with your own picture */}
+               <img
+                 src={profileImg}
+-                alt="Arooj Ashfaq"
++                alt="Zoya Ahmad"
+                 width={800}
+                 height={800}
+                 className="h-72 w-72 object-cover sm:h-80 sm:w-80 lg:h-[22rem] lg:w-[22rem]"
+diff --git a/src/components/sections/Navbar.tsx b/src/components/sections/Navbar.tsx
+index cac0a14..e8d900a 100644
+--- a/src/components/sections/Navbar.tsx
++++ b/src/components/sections/Navbar.tsx
+@@ -28,7 +28,7 @@ export function Navbar({ theme, onToggleTheme }: { theme: string; onToggleTheme:
+       <nav className="mx-auto flex max-w-6xl items-center justify-between px-5">
+         <a
+           href="#home"
+-          aria-label="Arooj Ashfaq — home"
++          aria-label="Zoya Ahmad — home"
+           className="grid h-11 w-11 shrink-0 place-items-center rounded-xl border border-primary/40 font-display text-lg font-bold text-primary [box-shadow:var(--shadow-glow)] transition-transform hover:scale-105"
+         >
+           AA
+diff --git a/src/components/sections/Portfolio.tsx b/src/components/sections/Portfolio.tsx
+index 8900f26..65141a5 100644
+--- a/src/components/sections/Portfolio.tsx
++++ b/src/components/sections/Portfolio.tsx
+@@ -169,13 +169,13 @@ export function Portfolio() {
+           <div className="text-xs font-light mt-6 flex flex-wrap justify-center gap-4">
+             <Magnetic strength={0.25}>
+               <a
+-                href="https://github.com/Arooj-Ashfaq"
++                href="https://github.com/Zoya-Ahmad"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 className="inline-flex items-center gap-2 rounded-full border border-border bg-card/60 px-6 py-3 font-semibold text-foreground transition-all hover:border-primary/50 hover:bg-card hover:scale-105"
+               >
+                 <Github size={18} />
+-                  github/Arooj-Ashfaq
++                  github/Zoya-Ahmad
+                 <ExternalLink size={14} />
+               </a>
+             </Magnetic>
+diff --git a/src/lib/portfolio-data.ts b/src/lib/portfolio-data.ts
+index 8469507..73442f2 100644
+--- a/src/lib/portfolio-data.ts
++++ b/src/lib/portfolio-data.ts
+@@ -122,7 +122,7 @@ export const PORTFOLIO: PortfolioCategory[] = [
+         title: "PawDeal - Pet Ecosystem",
+         description: "Full-stack pet platform using React/TypeScript, NestJS/Express.js backend, PostgreSQL, Redis caching, and AWS/Docker deployment.",
+         tags: ["React", "TypeScript", "NestJS", "Express.js", "PostgreSQL", "Redis", "AWS", "Docker"],
+-        link: "https://github.com/Arooj-Ashfaq/",
++        link: "https://github.com/Zoya-Ahmad/",
+         href: "https://pawdeal-frontend.vercel.app/",
+         t1: "Source Code",
+         t2: "Live Demo",
+@@ -157,7 +157,7 @@ export const PORTFOLIO: PortfolioCategory[] = [
+         title: "Network Security Lab",
+         description: "Hands-on labs exploring network scanning, hardening and traffic analysis with Kali Linux.",
+         tags: ["Kali Linux", "Network Security"],
+-        link: "https://github.com/Arooj-Ashfaq/",
++        link: "https://github.com/Zoya-Ahmad/",
+         href: "https://github.com/syntralogic/",
+         t1: "Source Code",
+         t2: "Live Demo",
+@@ -167,7 +167,7 @@ export const PORTFOLIO: PortfolioCategory[] = [
+         title: "Web App Security Audit",
+         description: "A practical project auditing common web vulnerabilities and documenting safe fixes.",
+         tags: ["Web Security", "OWASP"],
+-        link: "https://github.com/Arooj-Ashfaq/",
++        link: "https://github.com/Zoya-Ahmad/",
+         href: "https://github.com/syntralogic/",
+         t1: "Source Code",
+         t2: "Live Demo",
+@@ -177,7 +177,7 @@ export const PORTFOLIO: PortfolioCategory[] = [
+         title: "Crypto Basics Toolkit",
+         description: "Exploring cryptography fundamentals through small, well-documented experiments.",
+         tags: ["Cryptography", "Python"],
+-        link: "https://github.com/Arooj-Ashfaq/",
++        link: "https://github.com/Zoya-Ahmad/",
+         href: "https://github.com/syntralogic/",
+         t1: "Source Code",
+         t2: "Live Demo",
+diff --git a/src/routes/__root.tsx b/src/routes/__root.tsx
+index 3380e36..2ed69c9 100644
+--- a/src/routes/__root.tsx
++++ b/src/routes/__root.tsx
+@@ -77,9 +77,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
+     meta: [
+       { charSet: "utf-8" },
+       { name: "viewport", content: "width=device-width, initial-scale=1" },
+-      { title: "Arooj Ashfaq — Full Stack Developer & Graphic Designer" },
+-      { name: "description", content: "Portfolio of Arooj Ashfaq — Full Stack Developer, Graphic Designer & Cybersecurity Learner." },
+-      { name: "author", content: "Arooj Ashfaq" },
++      { title: "Zoya Ahmad — Full Stack Developer & Graphic Designer" },
++      { name: "description", content: "Portfolio of Zoya Ahmad — Full Stack Developer, Graphic Designer & Cybersecurity Learner." },
++      { name: "author", content: "Zoya Ahmad" },
+       { name: "theme-color", content: "#0a0a0a" },
+     ],
+     links: [
+diff --git a/src/routes/index.tsx b/src/routes/index.tsx
+index 093d6eb..ebd1be9 100644
+--- a/src/routes/index.tsx
++++ b/src/routes/index.tsx
+@@ -13,13 +13,13 @@ import { Footer } from "@/components/sections/Footer";
+ export const Route = createFileRoute("/")({
+   head: () => ({
+     meta: [
+-      { title: "Arooj Ashfaq — Full Stack Developer & Cybersecurity Enthusiast" },
++      { title: "Zoya Ahmad — Full Stack Developer & Cybersecurity Enthusiast" },
+       {
+         name: "description",
+         content:
+-          "Portfolio of Arooj Ashfaq — Certified Full Stack Web Developer and Graphic Designer, exploring cybersecurity. View projects, skills and certifications.",
++          "Portfolio of Zoya Ahmad — Certified Full Stack Web Developer and Graphic Designer, exploring cybersecurity. View projects, skills and certifications.",
+       },
+-      { property: "og:title", content: "Arooj Ashfaq — Full Stack Developer & Graphic Designer" },
++      { property: "og:title", content: "Zoya Ahmad — Full Stack Developer & Graphic Designer" },
+       {
+         property: "og:description",
+         content:
+diff --git a/src/styles.css b/src/styles.css
+index bec4240..0b67556 100644
+--- a/src/styles.css
++++ b/src/styles.css
+@@ -5,7 +5,7 @@
+ @custom-variant dark (&:is(.dark *));
+ 
+ /*
+- * Design system — Arooj Ashfaq portfolio.
++ * Design system — Zoya Ahmad portfolio.
+  * Dark, professional theme. Teal/Cyan primary, Golden secondary accent.
+  * All colors use oklch. Tokens are mapped to Tailwind utilities in @theme inline.
+  */

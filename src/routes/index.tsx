@@ -13,13 +13,13 @@ import { Footer } from "@/components/sections/Footer";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Arooj Ashfaq — Full Stack Developer & Cybersecurity Enthusiast" },
+      { title: "Zoya Ahmad — Full Stack Developer & Cybersecurity Enthusiast" },
       {
         name: "description",
         content:
-          "Portfolio of Arooj Ashfaq — Certified Full Stack Web Developer and Graphic Designer, exploring cybersecurity. View projects, skills and certifications.",
+          "Portfolio of Zoya Ahmad — Certified Full Stack Web Developer and Graphic Designer, exploring cybersecurity. View projects, skills and certifications.",
       },
-      { property: "og:title", content: "Arooj Ashfaq — Full Stack Developer & Graphic Designer" },
+      { property: "og:title", content: "Zoya Ahmad — Full Stack Developer & Graphic Designer" },
       {
         property: "og:description",
         content:

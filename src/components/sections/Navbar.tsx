@@ -28,7 +28,7 @@ export function Navbar({ theme, onToggleTheme }: { theme: string; onToggleTheme:
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-5">
         <a
           href="#home"
-          aria-label="Arooj Ashfaq — home"
+          aria-label="Zoya Ahmad — home"
           className="grid h-11 w-11 shrink-0 place-items-center rounded-xl border border-primary/40 font-display text-lg font-bold text-primary [box-shadow:var(--shadow-glow)] transition-transform hover:scale-105"
         >
           AA

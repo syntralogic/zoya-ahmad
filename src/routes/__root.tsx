@@ -77,9 +77,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Arooj Ashfaq — Full Stack Developer & Graphic Designer" },
-      { name: "description", content: "Portfolio of Arooj Ashfaq — Full Stack Developer, Graphic Designer & Cybersecurity Learner." },
-      { name: "author", content: "Arooj Ashfaq" },
+      { title: "Zoya Ahmad — Full Stack Developer & Graphic Designer" },
+      { name: "description", content: "Portfolio of Zoya Ahmad — Full Stack Developer, Graphic Designer & Cybersecurity Learner." },
+      { name: "author", content: "Zoya Ahmad" },
       { name: "theme-color", content: "#0a0a0a" },
     ],
     links: [

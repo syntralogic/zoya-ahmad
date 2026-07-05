@@ -91,7 +91,7 @@ export function Hero() {
               {/* TODO: replace src/assets/profile.jpg with your own picture */}
               <img
                 src={profileImg}
-                alt="Arooj Ashfaq"
+                alt="Zoya Ahmad"
                 width={800}
                 height={800}
                 className="h-72 w-72 object-cover sm:h-80 sm:w-80 lg:h-[22rem] lg:w-[22rem]"

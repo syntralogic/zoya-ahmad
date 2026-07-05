@@ -24,7 +24,7 @@ export function About() {
         <div className="grid items-center gap-12 lg:grid-cols-[1.3fr_1fr]">
           <Reveal variant="left">
             <p className="text-lg leading-relaxed text-justify text-muted-foreground">
-              I'm <span className="font-semibold text-foreground">Arooj Ashfaq</span> — a
+              I'm <span className="font-semibold text-foreground">Zoya Ahmad</span> — a
               <span className="text-primary"> Certified Full Stack Web Developer</span> and a
               <span className="text-gold"> Cybersecurity enthusiast</span>. I blend engineering
               precision with design sensibility to build digital experiences that are both

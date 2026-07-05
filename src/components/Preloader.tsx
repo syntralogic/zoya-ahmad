@@ -22,7 +22,7 @@ export function Preloader() {
             className="absolute inset-0 rounded-2xl border-2 border-primary/30 border-t-primary"
             style={{ animation: "spin-slow 0.9s linear infinite" }}
           />
-          <span className="font-display text-2xl font-bold text-gradient">AA</span>
+          <span className="font-display text-2xl font-bold text-gradient">ZA</span>
         </span>
         <span className="text-sm tracking-[0.3em] text-muted-foreground">LOADING</span>
       </div>

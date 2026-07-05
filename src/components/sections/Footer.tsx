@@ -10,7 +10,7 @@ export function Footer() {
           href="#home"
           className="grid h-12 w-12 place-items-center rounded-xl border border-primary/40 font-display text-lg font-bold text-primary"
         >
-          AA
+          ZA
         </a>
 
         <ul className="flex flex-wrap justify-center gap-x-6 gap-y-2">

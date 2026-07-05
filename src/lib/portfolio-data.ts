@@ -9,9 +9,9 @@ import {
 } from "lucide-react";
 
 export const PROFILE = {
-  name: "Arooj Ashfaq",
+  name: "Zoya Ahmad",
   titles: ["Full Stack Web Developer", "Cybersecurity Learner"],
-  email: "aroojashfaq979@gmail.com",
+  email: "evenodd040@gmail.com",
   // phone: "+92 322 8781212",
   // phoneHref: "+923228781212",
 };
@@ -19,14 +19,7 @@ export const PROFILE = {
 export type Social = { label: string; href: string; icon: LucideIcon };
 
 export const SOCIALS: Social[] = [
-  { label: "GitHub", href: "https://github.com/Arooj-Ashfaq", icon: Github },
-  { label: "LinkedIn", href: "https://www.linkedin.com/in/arooj-ashfaq-400538318/", icon: Linkedin },
-  { label: "Dribbble", href: "https://dribbble.com/Play_with_designs", icon: Dribbble },
-  {
-    label: "Instagram",
-    href: "https://www.instagram.com/_aroojashfaq_?igsh=cWF6YWRramRzY2lo",
-    icon: Instagram,
-  },
+  { label: "GitHub", href: "https://github.com/syntralogic", icon: Github },
 ];
 
 export const CONTACT_METHODS = [

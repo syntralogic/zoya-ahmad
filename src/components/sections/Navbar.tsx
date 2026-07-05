@@ -31,7 +31,7 @@ export function Navbar({ theme, onToggleTheme }: { theme: string; onToggleTheme:
           aria-label="Zoya Ahmad — home"
           className="grid h-11 w-11 shrink-0 place-items-center rounded-xl border border-primary/40 font-display text-lg font-bold text-primary [box-shadow:var(--shadow-glow)] transition-transform hover:scale-105"
         >
-          AA
+          ZA
         </a>
 
         {/* Desktop links */}
